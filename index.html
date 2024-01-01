@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Играй в Cyberpunk 2077 и получи возможность выиграть консоль Xbox Series X или Sony PlayStation 5! Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи!">
+    <link rel="icon" href="Main_files/Icons/Tab/Tab_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Main_files/Code/Swiper/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="PC-adaptive-style.css">
+    <link rel="stylesheet" href="Tablet-adaptive-style.css">
+    <link rel="stylesheet" href="Phone-adaptive-style.css">
+    <link rel="stylesheet" href="Main_files/Code/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="Main_files/Code/Form/css/modal.css">
+    <link rel="stylesheet" href="Fonts.css">
+    <title>КУРСАЧ</title>
+</head>
+<body>
+    <div id="form-modal" class="modal">
+        <div class="modal-content">
+            <div class="loader" id="modal-loader"></div><p id="modal-text">Идет отправка...</p>
+            <img loading="lazy" id="modal-error-icon" src="Main_files/Icons/Modal-window/error.svg" alt="error of sending"><p id="modal-error-text">Ошибка отправки!</p>
+            <img loading="lazy" id="modal-complete-icon" src="Main_files/Icons/Modal-window/complete.svg" alt="sending is complete!"><p id="modal-complete-text">Отправка завершена!</p>
+        </div>
+    </div>
+    <header>
+        <a class="Logo" href="index.html"><img loading="lazy" class="wow slideInLeft" src="Main_files/Icons/General/Cyberpunk-2077-logo.svg" alt="Cyberpunk logotype"></a>
+        <div class="social-media wow slideInRight">
+            <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Header/Youtube.svg" alt="Youtube"></a>
+            <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Header/VK.svg" alt="Vkontakte"></a>
+            <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Header/Facebook.svg" alt="Facebook"></a>
+            <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Header/Twitter.svg" alt="Twitter"></a>
+            <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Header/Twitch.svg" alt="Twitch"></a>
+            <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Header/Instagram.svg" alt="Instagram"></a>
+        </div>
+    </header>
+      <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+        </div>
+        <div class="slider-message wow slideInDown">
+            <div>
+                <h1>Доступно на всех платформах</h1>
+                <audio id="buttonSound1_hover" src="Main_files/Sounds/button-hover.mp3" autoplay></audio>
+                <a href="#platforms" id="ClickButton1">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+    <div class="slider-message-forPhone wow slideInDown">
+        <div>
+        <h1>Доступно на всех платформах</h1>
+        <a href="#platforms">Узнать больше</a>
+        </div>
+    </div>
+        <div class="night-city">
+            <div class="night-city-container">
+                <h1 class="wow fadeInUp">Найт-Сити изменит тебя навсегда!</h1>
+                <article class="wow fadeInUp"><strong>Cyberpunk 2077</strong> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</article>
+                <div class="night-city-container-images">
+                    <div class="left-side wow fadeInLeft">
+                        <img loading="lazy" src="Main_files/Adaptive/Pictures/PC/1.webp" alt="town photo1">
+                        <img loading="lazy" src="Main_files/Adaptive/Pictures/PC/2.webp" alt="town photo2">
+                    </div>
+                <img loading="lazy" class="wow fadeInRight" src="Main_files/Adaptive/Pictures/PC/3.webp" alt="town photo3">
+                </div>
+            </div>
+        </div>
+    <img loading="lazy" src="Main_files/Adaptive/Pictures/PC/transition-w-b.webp" alt="transition white-black">
+        <div class="contest">
+            <div class="contest-container">
+                <div class="contest-container-head wow fadeInUp">
+                    <img loading="lazy" src="Main_files/Icons/Contest/Sale.svg" alt="Sale!">
+                    <div class="consoles-container-forPhone wow fadeInRight">
+                        <img loading="lazy" src="Main_files/Adaptive/Pictures/Phone/Playstation.webp" class="PLAYSTATION" alt="XBOX Series X">
+                        <img loading="lazy" src="Main_files/Adaptive/Pictures/Phone/Xbox.webp" class="XBOX" alt="XBOX Series X">
+                    </div>
+                    <h1>Играй и выигрывай!</h1>
+                    <p class="contest-about">Играй в <strong>Cyberpunk 2077</strong> и получи возможность выиграть консоль <strong>Xbox Series X</strong> или <strong>Sony PlayStation 5!</strong> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1&nbsp;февраля. Удачи! ;)</p>
+                </div>
+                <div class="form-container">
+                    <form class="wow fadeInLeft" enctype="multipart/form-data" id="form-tg">
+                        <div class="input-container">
+                            <label for="name"></label>
+                            <input type="text" id="name" placeholder="Как тебя зовут?" required/>
+                        </div>
+                        <div class="input-container">
+                            <label for="email"></label>
+                            <input type="email" id="email" placeholder="Твой e-mail" required/>
+                        </div>
+                        <div class="dropzone" id="dropzone">
+                            <p>Прикрепить скриншот</p>
+                            <p>.png / .jpg / .pdf</p>
+                        </div>
+                            <input type="file" id="file-input" accept="image/png, image/jpg, image/pdf" name="document" required>
+                            <audio id="buttonSound2_hover" src="Main_files/Sounds/button-hover.mp3" autoplay></audio>
+                            <audio id="buttonSound2_press" src="Main_files/Sounds/button-press.mp3" autoplay></audio>
+                            <button type="submit" class="send-button" id="ClickButton2">Отправить</button>
+                            <label for="acceptTerms">
+                            <input type="checkbox" name="acceptTerms" id="acceptTerms" required>
+                            <span id="agreement">Согласен на обработку персональных данных</span>
+                            </label>
+                    </form>
+                    <div class="consoles-container wow fadeInRight">
+                        <img loading="lazy" src="Main_files/Adaptive/Pictures/PC/Playstation.webp" class="PLAYSTATION" alt="XBOX Series X">
+                        <img loading="lazy" src="Main_files/Adaptive/Pictures/PC/Xbox.webp" class="XBOX" alt="XBOX Series X">
+                    </div>
+                </div>
+            </div>
+        </div>        
+    <img loading="lazy" src="Main_files/Adaptive/Pictures/PC/transition-b-y.webp" alt="transition black-yellow">
+    <div class="commerce">
+        <div class="HP-ad-container">
+            <div class="HP-ad">
+                    <img loading="lazy" class="wow fadeInLeft" src="Main_files/Adaptive/Pictures/PC/HP-monitor.webp" alt="HP monitor">
+                    <div class="logoX wow fadeInLeft">
+                        <img loading="lazy" src="Main_files/Icons/Commerce/HP-logo.svg" alt="HP logotype">
+                        <img loading="lazy" src="Main_files/Icons/Commerce/cross.svg" alt="cross">
+                        <img loading="lazy" src="Main_files/Icons/General/Cyberpunk-2077-logo.svg" alt="Cyberpunk logotype">
+                    </div>
+            </div>
+            <div class="HP-ad-text">
+                <h1 class="wow fadeInRight">Полное погружение вместе с HP</h1>
+                <p class="wow fadeInRight">Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+                <ul class="game-advantages wow fadeInRight">
+                    <li class="icon-colors"><span>Яркие насыщенные цвета</span></li>
+                    <li class="icon-details"><span>Кристальная четкость изображения</span></li>
+                    <li class="icon-moving"><span>Быстрые движения и плавный геймплей</span></li>
+                </ul>
+                <audio id="buttonSound3_hover" src="Main_files/Sounds/button-hover.mp3" autoplay></audio>
+                <a href="404-page/404-page.html" class="more-button wow fadeIn" id="ClickButton3">Подробнее</a>
+            </div>
+        </div>
+    </div>
+        <div class="Buy-game-container" id="platforms">
+            <div class="gamecases-image"></div>
+            <div class="Buy-game-container-text">
+            <h1 class="wow fadeInUp">Купить игру Cyberpunk 2077</h1>
+            <span class="game-kit-title wow fadeIn">В комплект входит:</span>
+            <ul class="game-kit wow fadeInUp">
+                <li class="kit-diskcase">Футляр с игровыми дисками</li>
+                <li class="kit-keycase">Футляр с кодом для загрузки игры и дисками (pc)</li>
+                <li class="kit-handbook">Справочник с информацией об игровом мире</li>
+            </ul>
+            <div class="platforms"><strong class="wow fadeIn">Выберите платформу:</strong>
+                <div class="platforms-logos wow fadeInUp">
+                    <div class="top-side">
+                        <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Buy-game/PC-logo.svg" alt="PC"></a>
+                        <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Buy-game/Xbox-One-logo.svg" alt="Xbox One"></a>
+                    </div>
+                    <div class="bottom-side">
+                        <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Buy-game/Stadia-logo.svg" alt="Stadia"></a>
+                        <a href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/Buy-game/PS4-logo.svg" alt="Playstation 4"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-first-block">
+                <div class="footer-first-block-left-side">
+                    <a class="footer-logo wow fadeInLeft" href="index.html"><img loading="lazy" src="Main_files/Icons/General/Cyberpunk-2077-logo.svg" alt="Cyberpunk 2077 logotype"></a>
+                    <a class="footer-logo wow fadeInLeft" href="404-page/404-page.html"><img loading="lazy" src="Main_files/Icons/General/CD-Projekt-Red-logo.svg" alt="CD Project Red logotype"></a>
+                </div>
+                <div class="footer-first-block-right-side">
+                    <a href="404-page/404-page.html" class="footer-link wow fadeInRight">Лицензия</a>
+                    <a href="404-page/404-page.html" class="footer-link wow fadeInRight">Политика конфиденциальности</a>
+                </div>
+            </div>
+            <div class="footer-last-block">
+                <span>CD PROJEKT&#169;, Cyberpunk&#169;, Cyberpunk 2077&#169;</span>
+            </div>
+        </footer>
+<script src="Main_files/Code/wow/dist/wow.min.js"></script>
+<!-- Initialize Wow.js -->
+<script>
+    new WOW().init();
+</script>
+<script src="Main_files/Code/Swiper/js/swiper-bundle.min.js"></script>
+<script src="Main_files/Code/Swiper/js/swiper-bundle-initialize.min.js"></script>
+<script async src="Main_files/Code/axios.min.js"></script>
+<!--JS-файл для описания работы формы-->
+<script async src="Main_files/Code/Form/js/form.js"></script>
+<!--Файл JS для отправки данных с полей формы боту Telegram-->
+<script async src="Main_files/Code/Form/js/formdata-to-telegram.js"></script>
+<script async src="Main_files/Code/Sounds.js"></script>
+</body>
+</html>

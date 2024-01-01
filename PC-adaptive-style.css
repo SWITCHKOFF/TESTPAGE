@@ -1,0 +1,749 @@
+    /*Адаптив для компьютеров (ширина > 1025px)*/
+    @media (min-width: 1025px)
+    {
+    body
+    {
+        margin: 0;
+    }
+    .swiper
+    {
+        width:100%;
+        height:1000px;
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+    }
+    .swiper-wrapper .swiper-slide:nth-child(1)
+    {
+        background-image: url(Main_files/Adaptive/Slides/PC/Slide1.webp);
+    }
+    .swiper-wrapper .swiper-slide:nth-child(2)
+    {
+        background-image: url(Main_files/Adaptive/Slides/PC/Slide2.webp);
+    }
+    .swiper-wrapper .swiper-slide:nth-child(3)
+    {
+        background-image: url(Main_files/Adaptive/Slides/PC/Slide3.webp);
+    }
+    a{
+        text-decoration: none;
+        color: #777;
+    }
+    strong{
+        color:#52bedc;
+    }
+    header {
+        top: 21px;
+        z-index: 2;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .Logo {
+        margin-left: 16.6vw;
+    }
+    .social-media{
+        margin-right: 15.55vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .social-media a{
+        margin: 0 11.3% 0;
+    }
+    .slider-message-forPhone
+    {
+        display: none;
+    }
+    .slider-message{
+        z-index: 2;
+        left: 50.8%;
+        bottom: 0;
+        position: absolute;
+        height: 368px;
+        width: 625px;
+        background-color: #F8F200;
+        clip-path: polygon(0% 14%, 8% 0%, 100% 0%, 100% 86%, 92% 100%, 0% 100%);
+    }
+    .slider-message div {
+        width: 500px;
+        padding-left: 71px;
+        padding-top: 69px;
+    }
+    .slider-message h1
+    {
+        margin: 0 0 25px;
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 63px;
+        font-family: 'Archangelsk';
+        font-weight: 500;
+    }
+    .slider-message a{
+        float: left;
+        font-size: 24px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        font-style: normal;
+        border: black solid 24px;
+        background-color: black;
+        color: #F8F200;
+        padding: 0 26px 0;
+    }
+    .slider-message a:hover{
+        float: left;
+        font-size: 24px;
+        border: #F8F200 solid 24px;
+        background-color: #F8F200;
+        color: black;
+    }
+    .night-city
+    {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .night-city-container
+    {
+        width: 75%;
+    }
+    .night-city-container h1
+    {
+        font-family: 'Archangelsk';
+        font-size: 63px;
+        font-weight: 100;
+        letter-spacing: -0.5px;
+        margin-top: 70px;
+        margin-left: 5.5%;
+    }
+    .night-city-container article
+    {
+        color: gray;
+        margin-top: -18px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+        width: 66%;
+        line-height: 34px;
+        margin-left: 5.6%;
+    }
+    .night-city-container-images
+    {
+        margin-top: 4.1%;
+        margin-bottom: 4.4%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .night-city-container-images img
+    {
+        height: 196px;
+        clip-path: polygon(0% 26%, 10% 0%, 100% 0%, 100% 74%, 89% 100%, 0% 100%);
+    }
+    .night-city-container-images>img:last-child
+    {
+        clip-path: polygon(0% 12%, 6% 0%, 100% 0%, 100% 88%, 94% 100%, 0% 100%);
+        background-image: url(Main_files/Adaptive/Pictures/PC/3.webp);
+        height: 424px;
+        margin-left: 2.2%;
+    }
+    .left-side
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5.6%;
+    }
+    .left-side>img:first-child
+    {
+        background-image: url(Main_files/Adaptive/Pictures/PC/1.webp);
+    }
+    .left-side>img:last-child
+    {
+        background-image: url(Main_files/Adaptive/Pictures/PC/2.webp);
+        margin-top: 32px;
+    }
+    [alt="transition white-black"]
+    {
+        margin-top: 7px;
+        width:100%;
+    }
+    [alt="transition black-yellow"]
+    {
+        width: 100%;
+        margin-bottom: -5px;
+        margin-top: -1px;
+    }
+    .contest
+    {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        margin-top: -5px;
+    }
+    .contest-container
+    {
+        width: 75.25%;
+        color: white;
+        padding-bottom: 68px;
+        z-index: 0;
+    }
+    .contest-container-head
+    {
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        flex-wrap: wrap;
+        margin-left: 5.7%;
+        margin-top: 1.1%;
+    }
+    .contest-container-head>img
+    {
+        margin-right: 2.3%;
+    }
+    .contest-container-head h1
+    {
+        font-family: 'Archangelsk';
+        font-size: 62px;
+        font-weight: 400;
+        margin-bottom: 13px; 
+    }
+    .contest-about
+    {
+        margin-top: 24px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+        width: 72%;
+        line-height: 34px;
+    }
+    .form-container
+    {
+        display: flex;
+        justify-content: start;
+    }
+    .form-container form
+    {
+        margin-top:88px;
+        width: 56%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin-left: 5.6%;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 17px;
+    }
+    .input-container input {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #777;
+        color: lightgray;
+        background: none;
+        padding-bottom: 15px;
+        padding-top:20px;
+    }
+    .input-container input::placeholder
+    {
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 200;
+        color: lightgray;
+    }
+    .dropzone
+    {
+        margin-top: 20px;
+        text-align: center;
+        border: 2px dashed #ccc;
+        width:100%;
+        height: 116px;
+        cursor: pointer;
+        transition: border-color 0.1s;
+    }
+    .dropzone:hover {
+        border-color: gray;
+    }
+    .dropzone p
+    {
+        font-weight: 100;
+        font-family: 'Roboto';
+    }
+    .dropzone p:nth-child(1)
+    {
+        text-decoration: underline;
+        font-size: 18px;
+        color: lightgray;
+        margin-top: 36px;
+    }
+    .dropzone p:nth-child(2)
+    {
+        font-size: 12px;
+        margin-top: -12px;
+    }
+    [id="file-input"], [id="image-preview"]
+    {
+        display: none;
+    }
+    .send-button {
+        background-color: #F8F200;
+        color: #000;
+        border: none;
+        margin-top: 35px;
+        padding: 19px 0;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: 'Roboto';
+        font-size: 17px;
+        letter-spacing:0.5px;
+        width: 190px;
+        margin-left: 2px;
+    }
+    .send-button:hover {
+        background-color: #000;
+        color: #F8F200;
+    }
+    [for="acceptTerms"]
+    {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    [id="acceptTerms"]
+    {
+        margin-left: 2px;
+        margin-top: 15px;
+        display: flex;
+        appearance: none;
+        border: 1px solid lightgray;
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+    }
+    input[type="checkbox"]::before {
+        content: '';
+        display: block;
+        margin-top: 1px;
+        margin-left: 3px;
+        width: 4px;
+        height: 7px;
+        border: 1px solid black;
+        border-top: none;
+        border-left: none;
+        transform: rotate(40deg);
+    }
+    input[type="checkbox"]:checked::before {
+        border-color: #d8d345;
+        transform: rotate(40deg);
+    }
+    #agreement
+    {
+        margin-left: 2px;
+        margin-top: 12px;
+        font-family: 'Roboto';
+        font-weight: 100;
+        font-size: 12px;
+        color: lightgray;
+    }
+    .consoles-container
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        width: 100%;
+        margin-top: 2%;
+        margin-right: 5.6%;
+    }
+    .consoles-container img
+    {
+        position: absolute;
+    }
+    .consoles-container img:last-child
+    {
+        left: 34px;
+    }
+    .consoles-container-forPhone
+    {
+        display: none;
+    }
+    .commerce
+    {
+        display: flex;
+        justify-content: center;
+        height: max-content;
+        background-color: #F8F200;
+    }
+    .HP-ad-container
+    {
+        width: 70%;
+        height: max-content;
+        display: flex;
+    }
+    .HP-ad
+    {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .HP-ad>img
+    {
+        width: 32.6vw;
+        margin-left: 5.3%;
+    }
+    .HP-ad-text
+    {
+        height: max-content;
+    }
+    .logoX
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 4.3%;
+    }
+    .logoX img:first-child, .logoX img:nth-child(2)
+    {
+        margin-right: 4%;
+    }
+    .logoX img:last-child
+    {
+        width: 50%;
+        margin-right: -9%;
+    }
+    .HP-ad-text
+    {
+        margin-left: 4.6%;
+        margin-bottom: 75px;
+    }
+    .HP-ad-text h1
+    {
+        font-family: 'Archangelsk';
+        font-size: 62px;
+        font-weight: 400;
+        margin-top: 70px;
+        margin-bottom: 13px;
+    }
+    .HP-ad-text p
+    {
+        margin-top: 26px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+        width: 95%;
+        line-height: 34px;
+    }
+    .game-advantages{
+        list-style-type:none;
+        padding-inline-start: 34px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+    .icon-colors span, .icon-details span, .icon-moving span
+    {
+        margin-left: 41px;
+    }
+    .icon-colors, .icon-details, .icon-moving
+    {
+        padding-bottom: 20px;
+        display: flex;
+    }
+    .icon-colors {
+        background-image: url(Main_files/Icons/Commerce/colors.svg);
+        background-repeat: no-repeat;
+        background-position-x: 3px;
+        padding-top: 2px;
+    }
+
+    .icon-details {
+        background-image: url(Main_files/Icons/Commerce/details.svg);
+        background-repeat: no-repeat;
+        padding-top: 5px;
+    }
+
+    .icon-moving {
+        background-image: url(Main_files/Icons/Commerce/moving.svg);
+        background-repeat: no-repeat;
+        background-position-x: 1px;
+        padding-top: 5px;
+    }
+    .more-button {
+        background-color: black;
+        color: #F8F200;
+        border: none;
+        padding: 20px 51px;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: 'Roboto';
+        font-size: 17px;
+        letter-spacing:0.5px;
+    }
+    .more-button:hover {
+        background-color: #F8F200;
+        color: black;
+    }
+    .Buy-game-container
+    {
+        background-color: black;
+        width: 100%;
+        height: 715px;
+        color: white;
+        display: flex;
+    }
+    .Buy-game-container .gamecases-image
+    {
+        width: 49.1%;
+        height: auto;
+        background-image: url(Main_files/Adaptive/Pictures/PC/Disk-cases.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .Buy-game-container-text
+    {
+        margin-left: 34px;
+        margin-top: 28px;
+    }
+    .Buy-game-container-text h1
+    {
+        font-family: 'Archangelsk';
+        font-size: 62px;
+        font-weight: 400;
+        margin-bottom: 24px;
+        width: 70%;
+    }
+    .game-kit{
+        margin-top: 15px;
+        list-style-type:none;
+        font-family: 'Roboto';
+        font-weight: 400;
+        padding-left: 1px;
+        margin-bottom: 45px;
+        font-size: 23px;
+    }
+    .game-kit-title
+    {
+        color: #52bedc;
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .kit-diskcase, .kit-keycase, .kit-handbook
+    {           
+        font-size: 18px;
+        padding-left: 41px;
+    }
+    .kit-diskcase
+    {
+        background-image: url(Main_files/Icons/Buy-game/diskcase.svg);
+        background-repeat: no-repeat;
+        background-position-x: 1px;
+        background-position-y: 1px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .kit-keycase
+    {
+        background-image: url(Main_files/Icons/Buy-game/keycase.svg);
+        background-repeat: no-repeat;
+        background-position-x: 3px;
+        background-position-y: 3px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }   
+    .kit-handbook
+    {
+        background-image: url(Main_files/Icons/Buy-game/handbook.svg);
+        background-repeat: no-repeat;
+        background-position-x: 1px;
+        padding-top: 5px;
+    }
+    .platforms
+    {
+        margin-top: 73px;
+        margin-bottom: 45px;
+    }
+    .platforms strong
+    {
+        font-family: 'Roboto';
+        font-size: 24px;
+    }
+    .platforms-logos
+    {
+        margin-top: 23px;
+        margin-left: 2px;
+    }
+    .platforms-logos .top-side
+    {
+        margin-bottom: 43px;
+    }
+    .platforms-logos .top-side a:last-child
+    {
+        margin-left: 77px;
+        margin-top: 1px;
+    }
+    .platforms-logos .bottom-side a:first-child
+    {
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    .platforms-logos .bottom-side a:last-child
+    {
+        margin-left: 77px;
+        margin-bottom: 7px;
+    }
+    .platforms-logos .bottom-side a:last-child img
+    {
+        margin-bottom: 4px;
+    }
+    .platforms-logos .top-side a:hover, .platforms-logos .bottom-side a:hover
+    {
+        filter: hue-rotate(150deg);
+    }
+    .footer-first-block
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .footer-first-block-left-side
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 14px;
+        margin-left: 16.6%;
+    }
+    .footer-first-block-left-side img
+    {
+        max-width: 100%;
+    }
+    
+    .footer-first-block-left-side a:nth-child(1)
+    {
+        margin-right: 33px;
+    }
+    .footer-first-block-right-side
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 16.8%;
+        margin-left: 10%;
+        margin-top: 13px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .footer-first-block-right-side a:nth-child(2)
+    {
+        margin-left: 33px;
+    }
+    .footer-last-block
+    {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 0;
+    }
+    .footer-last-block span
+    {
+        margin-left: 2px;
+        margin-top: -6px;
+        color: lightgray;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 300;
+    }
+    @media (max-width: 1831px)
+    {
+        .night-city-container-images
+        {
+            margin-left: 6%;
+        }
+        .left-side
+        {
+            display: flex;
+            flex-direction: row;
+            margin-left: 0;
+        }
+        .left-side img:last-child
+        {
+            margin-top: 0;
+        }
+        .left-side img:first-child
+        {
+            margin-right: 5%;
+        }
+        .night-city-container-images>img:last-child
+        {
+            height: 424px;
+            margin-top: 40px;
+            margin-left: 0;
+        }
+        .left-side img
+        {
+            width: 50%;
+        }
+        .consoles-container img
+        {
+            width: 55%;   
+        }
+        .logoX
+        {
+            flex-direction: column;
+        }
+        .logoX img
+        {
+            margin-top: 30px;
+        }
+        .logoX img:nth-child(1), .logoX img:nth-child(2)
+        {
+            margin-left: 15%;
+        }
+        .HP-ad
+        {
+            height: auto;
+        }
+        .footer-first-block
+        {
+            flex-wrap: nowrap;
+        }
+        .footer-first-block-left-side
+        {
+            margin-left: 0%;
+        }
+    
+        .footer-first-block-right-side
+        {
+            margin-right: 0%;
+        }
+    }
+    @media (max-width: 1193px)
+    {
+        .slider-message
+        {
+            left: 40%;
+        }
+        .Buy-game-container
+        {
+            height: 750px;
+        }
+    }
+}

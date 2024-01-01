@@ -1,0 +1,62 @@
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.modal-content {
+    background-color: black;
+    padding: 20px;
+    position: relative;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: zoomIn 0.3s;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.loader {
+    border: 4px solid yellow; /* Light grey */
+    border-top: 4px solid transparent; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    animation: spin 1s linear infinite;
+}
+
+.modal-content img
+{
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

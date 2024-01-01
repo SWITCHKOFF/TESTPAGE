@@ -1,0 +1,31 @@
+@font-face { /*Добавка шрифтов в различных начертаниях*/
+        font-family: 'Archangelsk';
+        font-style:normal;
+        font-weight: 400;
+        src: url('Main_files/Fonts/Archangelsk/Archangelsk-Regular.woff2') format('truetype');
+        font-display: swap;
+    }
+    
+    @font-face { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        src: url('Main_files/Fonts/Roboto/Roboto-Bold.woff2') format('truetype');
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: url('Main_files/Fonts/Roboto/Roboto-Regular.woff2') format('truetype');
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 100;
+        src: url('Main_files/Fonts/Roboto/Roboto-Light.woff2') format('truetype');
+        font-display: swap;
+    }
